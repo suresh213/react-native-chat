@@ -1,0 +1,11 @@
+# Installation Steps:
+- Clone the repository
+- Install dependencies: Run `npm install` in the "mobile" and "server" folders
+- For ios users: Run `pod install` in the "mobile" folder
+- Create a new project on supabase and copy the sql code to create databases.
+- Create two buckets in your supabase project "avatars" and "chats"
+- Copy your supabase credentials and paste them into the supabase.js file, do the same for the server folder but in the env file.
+- Use your local ip address in 'hooks/axios.js' to etablish the connection to the node server
+- Start the expo development server: `npm run start` into the "mobile" directory and the "server" directory
+- Use your local ip address in the file "hooks/axios.js"
+- Build and run the app: `npm run android` or `npm run ios`
